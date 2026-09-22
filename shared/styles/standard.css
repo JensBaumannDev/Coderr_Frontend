@@ -161,6 +161,25 @@ main {
     flex-direction: row !important;
 }
 
+.privacy-content {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 24px 32px 64px;
+    line-height: 1.6;
+}
+
+.privacy-content h2 {
+    font-size: 20px;
+    margin-top: 28px;
+    margin-bottom: 8px;
+}
+
+.privacy-content p {
+    font-size: 16px;
+    margin: 0 0 12px;
+}
+
 @media screen and (max-width: 480px) {
     .f_d_r_resp_c {
         flex-direction: column !important;
@@ -184,7 +203,7 @@ main {
     width: 100%;
 }
 
-.w_reset{
+.w_reset {
     width: unset !important;
 }
 
@@ -192,7 +211,7 @@ main {
     text-align: center;
 }
 
-.rotate_half{
+.rotate_half {
     transform: rotate(180deg);
 }
 

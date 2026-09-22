@@ -1,16 +1,16 @@
 const GUEST_LOGINS = {
     customer : {
-        username: 'andrey',
-        password: 'asdasd'
+        username: 'customer_user',
+        password: 'CoderrDemo-7Kp4!'
     },
     business : {
-        username: 'kevin',
-        password: 'asdasd24'
+        username: 'business_user',
+        password: 'CoderrDemo-4Rx9!'
     }
 }
 
-const API_BASE_URL = 'http://127.0.0.1:8000/api/';
-const STATIC_BASE_URL = 'http://127.0.0.1:8000/';
+const API_BASE_URL = '/api/';
+const STATIC_BASE_URL = '/';
 
 
 const LOGIN_URL = 'login/';
